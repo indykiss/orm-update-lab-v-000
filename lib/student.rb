@@ -14,7 +14,10 @@ class Student
   end 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a732287bf6e182b9bbc4c92b7b921fb4e65fe007
   def self.new_from_db(row)
     new_kid = self.new(row[0], row[1], row[2])
   end
